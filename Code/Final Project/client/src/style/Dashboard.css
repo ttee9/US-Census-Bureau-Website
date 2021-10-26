@@ -1,0 +1,34 @@
+.states-container {
+  /* margin: 10px 0; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  /* border-bottom: 1px solid #ddd; */
+}
+
+.states-container .StateButton {
+  flex: 1 0 20%;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.states-container .StateButton:hover {
+  background-color: rgb(233, 29, 29);
+}
+
+.stateInfo-container .stateInfo-header, .results-container .stateInfo {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+}
+
+.stateInfo .title, .stateInfo-header .header-lg {
+  flex: 1 0 50%;
+}
+
+.stateInfo-header .header, .stateInfo .zip_city, .stateInfo .year_price {
+  flex: 1 0 25%;
+}

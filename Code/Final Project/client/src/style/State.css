@@ -1,0 +1,13 @@
+.header-container, .results-container {
+  display: flex;
+  flex-flow: column wrap;
+  /* margin-top: 10px; */
+}
+
+.stateInfo-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 10px;
+}
+
+

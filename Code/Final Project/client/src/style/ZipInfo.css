@@ -1,0 +1,26 @@
+.header-container, .results-container {
+  display: flex;
+  flex-flow: column wrap;
+  /* margin-top: 10px; */
+}
+
+.header-container .headers, .results-container .zipinfoResults {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+}
+
+.zipinfoResults .income, .zipinfoResults .w_30, .zipinfoResults .w_60, .headers .header {
+  flex: 1 0 22%;
+  align-items: center;
+}
+
+.zipinfoResults .city, .headers .headerCity {
+  flex: 1 0 15%;
+  align-items: center;
+}
+.zipinfoResults .zip, .headers .headerZip {
+  flex: 1 0 12%;
+  align-items: center;
+}
